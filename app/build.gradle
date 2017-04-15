@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+
+
+    defaultConfig {
+        applicationId "info.androidhive.loginandregistration"
+        minSdkVersion 15
+        targetSdkVersion 23
+
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+
+
+    compile 'com.github.ekimual:country-picker-x:1.0.0'
+    compile 'com.joooonho:selectableroundedimageview:1.0.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.android.gms:play-services-maps:10.2.1'
+    compile 'com.google.android.gms:play-services-location:10.2.1'
+    compile 'com.android.support:support-vector-drawable:25.3.1'
+}

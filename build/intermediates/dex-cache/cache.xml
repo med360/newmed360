@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\7944bdd580c00c583bce2f9882ca50e1510e3970\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_a083b686dac6b71d93a7cc4144b79242948bcb50.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7c3a5736fe7687dfacf42f5eb2df71630bb98ca7">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e539763ee86eb26dc166de897330a5d1ade0a502\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\7b03fa3bcb9837895d47e8a75326ad74ec372c00\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_5cf66d7beccad9f244af65e7adedaeb1fc0ed488.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\5520c6ce5fb6a30e329c9675594cdb3931e5c704\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_bda185950c2c53846c67b18376637ca2aa746149.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\07cf9a153967e13b7ca1524a30372b09a9f0bb71\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_639c6dcf84c59d17fe1651375efcd08fdbc2f842.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\272fa50e011b180e820cd532cff1763e6f95a0ff\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_53f7cba1c33f015023c3f04d5af223554c7551d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\53a99bea8626aa6af101303b7f164fb315347c26\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b915694304bc4a4003b7e7b65577b4f0b514b06">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_78217941063c34051c95aaf867d325c313392f83.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_990b9d54cbdacb195ccd0f06a3646a1f97fb00c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\2786d4ac34983fffc98cc30a4ac5edc1fc3a2dcd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_a63b1d1a36c0b73b18bfe6db3ed8ee464c828cb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\aaa0637f4e0717a6ac82b3a7038eb07f912af190\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_7a397bd3c70a28259600720096bbf95d5eda9001.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\dfb133cce39f9a4933bfdd70f82fa8c378ef12d2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_14387a39a8128b841b78138a693206feb3a3931d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_6c337b309e6c2a303d57566b0aa406fe2f2ec14e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\18521cfa710feb7fab8136b4804eaf2cf8328d27\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_7abba1e291de1ac0490bdb41d5a4aee28cd265a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\22e9d00a732fe89977223db6c813dab6e4ac54a2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_4215a30e29c872fee0e5feeace73feb06ba3541f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\63f3071527e1b192f6627d90b26053751d7091c1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_e704d3f6ef319c1a3a907b4b1762410cbac959a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Siya\.android\build-cache\a2f5085963985bd827a2f9ef9b9052c068758a5a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Siya\Desktop\MED360\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\classes_a0c73440435070efdb953770b5312cfe9b1c7aae.jar" />
+    </item>
+
+</items>
