@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\bw_flag.png",
-        "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\bw_flag.png"
-    },
-    {
         "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\tj_flag.png",
         "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\tj_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\bw_flag.png",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\bw_flag.png"
     },
     {
         "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\pe_flag.png",
@@ -40,16 +40,16 @@
         "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\sm_flag.png"
     },
     {
-        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\az_flag.png",
-        "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\az_flag.png"
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ug_flag.png",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\ug_flag.png"
     },
     {
         "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ml_flag.png",
         "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\ml_flag.png"
     },
     {
-        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ug_flag.png",
-        "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\ug_flag.png"
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\az_flag.png",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\az_flag.png"
     },
     {
         "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\je_flag.png",
@@ -128,12 +128,12 @@
         "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\tl_flag.png"
     },
     {
-        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\cv_flag.png",
-        "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\cv_flag.png"
-    },
-    {
         "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\lb_flag.png",
         "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\lb_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\cv_flag.png",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\cv_flag.png"
     },
     {
         "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\sk_flag.png",
@@ -188,12 +188,12 @@
         "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\tw_flag.png"
     },
     {
-        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ph_flag.png",
-        "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\ph_flag.png"
-    },
-    {
         "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ec_flag.png",
         "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\ec_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ph_flag.png",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\5ee0a9fbcccad42a234bffcd4eb376785c4ce63b\\output\\res\\mipmap-mdpi-v4\\ph_flag.png"
     },
     {
         "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ir_flag.png",

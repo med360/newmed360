@@ -33,6 +33,12 @@
             android:textColor="@color/input_login"
             android:textColorHint="@color/input_login_hint" />
 
+            <AutoCompleteTextView
+                android:id="@+id/atv_places"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:hint="Enter Place Here" />
             <ListView
                 android:id="@+id/list"
                 android:layout_width="319dp"

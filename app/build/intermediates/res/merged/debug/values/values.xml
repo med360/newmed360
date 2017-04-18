@@ -782,6 +782,7 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="gender">Male</string>
     <string name="gender1">Female</string>
+    <string name="hello_world">Hello world!</string>
     <string name="hint_bgp">Blood Group</string>
     <string name="hint_dob">Date Of Birth</string>
     <string name="hint_email">Email</string>
@@ -790,6 +791,7 @@
     <string name="hint_password">Password</string>
     <string name="hint_sex">Sex</string>
     <string name="lbl_you_are_at">YOU ARE AT</string>
+    <string name="menu_settings">Settings</string>
     <string name="name">Fullname</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
@@ -798,6 +800,7 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="str_atv_places">Enter Place Here</string>
     <string name="title_activity_bottom_nav">BottomNav</string>
     <string name="title_activity_register2">Register2Activity</string>
     <string name="title_dashboard">Dashboard</string>

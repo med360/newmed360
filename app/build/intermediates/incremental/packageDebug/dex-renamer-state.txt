@@ -1,4 +1,4 @@
-#Sat Apr 15 23:35:32 GST 2017
+#Tue Apr 18 15:29:24 GST 2017
 base.0=C\:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e539763ee86eb26dc166de897330a5d1ade0a502
 renamed.1=classes.dex
 renamed.0=classes2.dex
