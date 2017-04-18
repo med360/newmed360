@@ -730,7 +730,7 @@ adapter.clearData();
     public void onConnected(Bundle arg0) {
 
         // Once connected with google api, get the location
-        displayLocation2();
+        displayLocation();
 
         if (mRequestingLocationUpdates) {
             startLocationUpdates();

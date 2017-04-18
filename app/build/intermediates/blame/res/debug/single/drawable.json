@@ -16,12 +16,12 @@
         "source": "C:\\Users\\priya\\.android\\build-cache\\5d5ff0a7a87e3b984a2d1f470ef2c4afcee29dff\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\newmed360v2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\priya\\.android\\build-cache\\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\newmed360v2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
         "source": "C:\\Users\\priya\\.android\\build-cache\\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\newmed360v2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\priya\\.android\\build-cache\\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\newmed360v2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
