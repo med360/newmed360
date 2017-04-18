@@ -855,7 +855,7 @@ int id alertTitle 0x7f0f0069
 int id all 0x7f0f0014
 int id always 0x7f0f0046
 int id apointment 0x7f0f00d8
-int id atv_places 0x7f0f00a5
+int id atv_places 0x7f0f00a4
 int id auto 0x7f0f002d
 int id autocompleteText 0x7f0f00a7
 int id basic 0x7f0f0015
@@ -896,6 +896,7 @@ int id design_menu_item_action_area 0x7f0f00b3
 int id design_menu_item_action_area_stub 0x7f0f00b2
 int id design_menu_item_text 0x7f0f00b1
 int id design_navigation_view 0x7f0f00b0
+int id detbtn 0x7f0f00a5
 int id did 0x7f0f00bc
 int id disableHome 0x7f0f001b
 int id dob 0x7f0f0099
@@ -940,7 +941,6 @@ int id list 0x7f0f00a6
 int id listMode 0x7f0f0018
 int id list_item 0x7f0f0059
 int id llCountry 0x7f0f00b5
-int id location 0x7f0f00a4
 int id logoutnav 0x7f0f00da
 int id lvCountry 0x7f0f00a8
 int id masked 0x7f0f00d5

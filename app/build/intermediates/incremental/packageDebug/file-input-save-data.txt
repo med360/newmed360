@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 18 15:29:24 GST 2017
+#Tue Apr 18 19:29:25 GST 2017
 1117.file=C\:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-hdpi-v4\\uz_flag.png
 1391.set=ANDROID_RESOURCE
 1034.base=C\:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\resources-debug.ap_

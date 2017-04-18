@@ -3520,7 +3520,7 @@ containing a value of this type.
         public static final int all=0x7f0f0014;
         public static final int always=0x7f0f0046;
         public static final int apointment=0x7f0f00d8;
-        public static final int atv_places=0x7f0f00a5;
+        public static final int atv_places=0x7f0f00a4;
         public static final int auto=0x7f0f002d;
         public static final int autocompleteText=0x7f0f00a7;
         public static final int basic=0x7f0f0015;
@@ -3561,6 +3561,7 @@ containing a value of this type.
         public static final int design_menu_item_action_area_stub=0x7f0f00b2;
         public static final int design_menu_item_text=0x7f0f00b1;
         public static final int design_navigation_view=0x7f0f00b0;
+        public static final int detbtn=0x7f0f00a5;
         public static final int did=0x7f0f00bc;
         public static final int disableHome=0x7f0f001b;
         public static final int dob=0x7f0f0099;
@@ -3605,7 +3606,6 @@ containing a value of this type.
         public static final int listMode=0x7f0f0018;
         public static final int list_item=0x7f0f0059;
         public static final int llCountry=0x7f0f00b5;
-        public static final int location=0x7f0f00a4;
         public static final int logoutnav=0x7f0f00da;
         public static final int lvCountry=0x7f0f00a8;
         public static final int masked=0x7f0f00d5;

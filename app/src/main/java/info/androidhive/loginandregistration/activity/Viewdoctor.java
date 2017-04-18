@@ -133,12 +133,13 @@ public class Viewdoctor extends AppCompatActivity implements ConnectionCallbacks
     private ProgressDialog pDialog;
     private List<Movie> movieList = new ArrayList<Movie>();
     private ListView listView;
-    private EditText loc;
+    //private EditText loc;
     private CustomListAdapter adapter;
     private SessionManager session;
     AutoCompleteTextView atvPlaces;
     PlacesTask placesTask;
     ParserTask parserTask;
+    private Button detbtn;
 
     public BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -196,7 +197,7 @@ public class Viewdoctor extends AppCompatActivity implements ConnectionCallbacks
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_viewdoctor);
 
-
+detbtn= (Button) findViewById(R.id.detbtn);
 
         atvPlaces = (AutoCompleteTextView) findViewById(R.id.atv_places);
         atvPlaces.setThreshold(1);
@@ -225,15 +226,77 @@ public class Viewdoctor extends AppCompatActivity implements ConnectionCallbacks
 
                                              public void onItemClick(AdapterView adapterView, View view, int position, long id) {
 
-atvPlaces.setText("HELLO");
+ HashMap<String, String> hm = (HashMap<String, String>) adapterView.getItemAtPosition(position);
+    String str = hm.get("description");
+    String selplaceid=  hm.get("placeid");
+    Log.e("gplaces", "the id of the selected place is: "+selplaceid);
+   atvPlaces.setText(str);
+String api_key="AIzaSyB23yTJ6rI0HPYLw1LBXRI4duiQscXhEx0";
+String placedetailurl="https://maps.googleapis.com/maps/api/place/details/json?placeid="+selplaceid+"&key="+api_key+"";
 
-                                                 Toast.makeText(getApplicationContext(), "Selected Place", Toast.LENGTH_SHORT).show();
+  Log.e("placedetail", "code to clear cache is below");
+ AppController.getInstance().getRequestQueue().getCache().remove(placedetailurl);
+   String tag_string_req = "req_login";                                               StringRequest strReq = new StringRequest(Request.Method.POST, placedetailurl, new Response.Listener<String>() {
+
+    @Override
+      public void onResponse(String response) {
+   Log.d(TAG, "place detail Response: " + response.toString());
+
+  Log.e("placedetail", "response received");
+        try {
+            JSONObject jObj = new JSONObject(response);
+            JSONObject result = jObj.getJSONObject("result");
+            JSONObject geometry = result.getJSONObject("geometry");
+            JSONObject sellocation = geometry.getJSONObject("location");
+            String lat = sellocation.getString("lat");
+            String lng = sellocation.getString("lng");
+            Log.e("placedetail", "Latitude is: "+lat+"Longtiude is: "+lng+"");
+            get_all_doctors(lat,lng);
+        } catch (JSONException e) {
+            // JSON error
+            e.printStackTrace();
+            Toast.makeText(getApplicationContext(), "Json error: " + e.getMessage(), Toast.LENGTH_LONG).show();
+        }
+
+    }
+                                                 }, new Response.ErrorListener() {
+
+                                                     @Override
+                                                     public void onErrorResponse(VolleyError error) {
+                                                         Log.e(TAG, "Login Error: " + error.getMessage());
+                                                         Toast.makeText(getApplicationContext(),
+                                                                 error.getMessage(), Toast.LENGTH_LONG).show();
+
+                                                     }
+                                                 }) {
+
+                                                     @Override
+                                                     protected Map<String, String> getParams() {
+                                                         // Posting parameters to login url
+                      Log.e("medlogin", "inside getparams method and the email storing in hashmap ");
+                                                         Map<String, String> params = new HashMap<String, String>();
+                                               return params;
+                                                     }
+
+                                                 };
+
+                                                 // Adding request to request queue
+                                                 AppController.getInstance().addToRequestQueue(strReq, tag_string_req);
+
+
+
+
+
+
+
+
+            Toast.makeText(getApplicationContext(), selplaceid, Toast.LENGTH_SHORT).show();
 
                                              }
                                          });
 
         listView = (ListView) findViewById(R.id.list);
-        loc=(EditText) findViewById(R.id.location);
+        //loc=(EditText) findViewById(R.id.location);
         adapter = new CustomListAdapter(this, movieList);
         listView.setAdapter(adapter);
 
@@ -268,11 +331,29 @@ atvPlaces.setText("HELLO");
                 startActivityForResult(in, 100);
             }
         });
-        loc.setOnClickListener(new View.OnClickListener() {
+       // loc.setOnClickListener(new View.OnClickListener() {
+
+      //      @Override
+      //      public void onClick(View v) {
+      //          togglePeriodicLocationUpdates();
+       //     }
+       // });
+
+
+        detbtn.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                togglePeriodicLocationUpdates();
+
+                displayLocation();
+            }
+        });
+
+        atvPlaces.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+               atvPlaces.setText("");
             }
         });
 
@@ -524,7 +605,8 @@ adapter.clearData();
                     String postalCode = addresses.get(0).getPostalCode();
                     String knownName = addresses.get(0).getFeatureName();
 
-                    loc.setText(address + " " + city + " " + country);
+                    //loc.setText(address + " " + city + " " + country);
+                    atvPlaces.setText(address + " " + city + " " + country);
                 }
             } catch (IOException e) {
                 // TODO Auto-generated catch block
@@ -534,8 +616,8 @@ adapter.clearData();
 
         } else {
 
-            loc
-                    .setText("(Couldn't get the location. Make sure location is enabled on the device)");
+           // loc.setText("(Couldn't get the location. Make sure location is enabled on the device)");
+            atvPlaces.setText("(Couldn't get the location. Make sure location is enabled on the device)");
         }
     }
 
