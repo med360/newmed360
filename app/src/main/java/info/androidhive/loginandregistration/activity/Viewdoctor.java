@@ -148,7 +148,7 @@ public class Viewdoctor extends AppCompatActivity implements ConnectionCallbacks
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    Log.e("medlogin", "before redirecting to new activity on success login");
+                    Log.e("medlogin", "before redirecting new activity on success login");
                     Intent intent = new Intent(Viewdoctor.this,
                             Viewdoctor.class);
                     startActivity(intent);
