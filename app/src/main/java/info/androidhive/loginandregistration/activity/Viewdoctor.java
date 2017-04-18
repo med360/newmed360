@@ -621,6 +621,65 @@ adapter.clearData();
         }
     }
 
+    private void displayLocation2() {
+        Log.e("dsp", "before permission check in displaylocation()");
+        if ( ContextCompat.checkSelfPermission( this, android.Manifest.permission.ACCESS_COARSE_LOCATION ) != PackageManager.PERMISSION_GRANTED ) {
+
+            ActivityCompat.requestPermissions( this, new String[] {  android.Manifest.permission.ACCESS_COARSE_LOCATION  }, MY_PERMISSION_ACCESS_COARSE_LOCATION );
+        }
+
+        //  if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+        // TODO: Consider calling
+        //    ActivityCompat#requestPermissions
+        // here to request the missing permissions, and then overriding
+        //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+        //                                          int[] grantResults)
+        // to handle the case where the user grants the permission. See the documentation
+        // for ActivityCompat#requestPermissions for more details.
+
+        //ActivityCompat.requestPermissions(this,Manifest.permission.ACCESS_COARSE_LOCATION,1)
+
+        Log.e("dsp", "Periodic location updates started! in displaylocation()");
+
+
+        mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
+
+        if (mLastLocation != null) {
+            double latitude = mLastLocation.getLatitude();
+            double longitude = mLastLocation.getLongitude();
+            String latit=""+latitude;
+            String longit=""+longitude;
+            //get_all_doctors(latit,longit);
+            Geocoder geocoder;
+            List<Address> addresses;
+            geocoder = new Geocoder(this, Locale.getDefault());
+            try {
+                Log.e("latitude", "inside latitude--" + latitude);
+                addresses = geocoder.getFromLocation(latitude, longitude, 1);
+                if (addresses != null && addresses.size() > 0) {
+                    String address = addresses.get(0).getAddressLine(0);
+                    String city = addresses.get(0).getLocality();
+                    String state = addresses.get(0).getAdminArea();
+                    String country = addresses.get(0).getCountryName();
+                    String postalCode = addresses.get(0).getPostalCode();
+                    String knownName = addresses.get(0).getFeatureName();
+
+                    //loc.setText(address + " " + city + " " + country);
+                    //atvPlaces.setText(address + " " + city + " " + country);
+                }
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+
+
+        } else {
+
+            // loc.setText("(Couldn't get the location. Make sure location is enabled on the device)");
+            atvPlaces.setText("(Couldn't get the location. Make sure location is enabled on the device)");
+        }
+    }
+
     private void togglePeriodicLocationUpdates() {
         if (!mRequestingLocationUpdates) {
             // Changing the button text
@@ -730,7 +789,7 @@ adapter.clearData();
     public void onConnected(Bundle arg0) {
 
         // Once connected with google api, get the location
-        displayLocation2();
+        displayLocation();
 
         if (mRequestingLocationUpdates) {
             startLocationUpdates();
