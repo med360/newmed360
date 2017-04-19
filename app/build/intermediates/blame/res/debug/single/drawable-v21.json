@@ -1,11 +1,23 @@
 [
     {
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\a2f5085963985bd827a2f9ef9b9052c068758a5a\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\newmed360v2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
         "source": "C:\\Users\\priya\\.android\\build-cache\\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\a2f5085963985bd827a2f9ef9b9052c068758a5a\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\newmed360v2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
         "source": "C:\\Users\\priya\\.android\\build-cache\\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\07cf9a153967e13b7ca1524a30372b09a9f0bb71\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\newmed360v2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
@@ -20,6 +32,14 @@
         "source": "C:\\Users\\priya\\.android\\build-cache\\5d9a6a858babdd40eb6670f7c42de1520670454c\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\07cf9a153967e13b7ca1524a30372b09a9f0bb71\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\a2f5085963985bd827a2f9ef9b9052c068758a5a\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\newmed360v2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
         "source": "C:\\Users\\priya\\.android\\build-cache\\5d9a6a858babdd40eb6670f7c42de1520670454c\\output\\res\\drawable-v21\\avd_hide_password.xml"
     },
@@ -28,7 +48,19 @@
         "source": "C:\\Users\\priya\\.android\\build-cache\\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\07cf9a153967e13b7ca1524a30372b09a9f0bb71\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\a2f5085963985bd827a2f9ef9b9052c068758a5a\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\newmed360v2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
         "source": "C:\\Users\\priya\\.android\\build-cache\\5d9a6a858babdd40eb6670f7c42de1520670454c\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Siya\\.android\\build-cache\\07cf9a153967e13b7ca1524a30372b09a9f0bb71\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     }
 ]
