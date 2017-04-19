@@ -782,6 +782,7 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="gender">Male</string>
     <string name="gender1">Female</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="hint_bgp">Blood Group</string>
     <string name="hint_dob">Date Of Birth</string>
