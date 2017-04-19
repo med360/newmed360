@@ -5,4 +5,6 @@ package info.androidhive.loginandregistration.activity;
  */
 
 public class TestClass {
+    final String test="";
 }
+
