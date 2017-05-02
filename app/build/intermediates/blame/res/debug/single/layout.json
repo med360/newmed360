@@ -212,12 +212,12 @@
         "source": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\activity_location2.xml"
     },
     {
-        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\priya\\.android\\build-cache\\5d9a6a858babdd40eb6670f7c42de1520670454c\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\booklist_row.xml",
         "source": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\booklist_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\priya\\.android\\build-cache\\5d9a6a858babdd40eb6670f7c42de1520670454c\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",

@@ -88,20 +88,20 @@
         "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\nr_flag.png"
     },
     {
-        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\mv_flag.png",
-        "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\mv_flag.png"
-    },
-    {
-        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\rw_flag.png",
-        "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\rw_flag.png"
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xk_flag.png",
+        "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\xk_flag.png"
     },
     {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\iq_flag.png",
         "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\iq_flag.png"
     },
     {
-        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\xk_flag.png",
-        "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\xk_flag.png"
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\rw_flag.png",
+        "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\rw_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\mv_flag.png",
+        "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\mv_flag.png"
     },
     {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\tf_flag.png",
@@ -164,12 +164,12 @@
         "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\pl_flag.png"
     },
     {
-        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\me_flag.png",
-        "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\me_flag.png"
-    },
-    {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ar_flag.png",
         "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\ar_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\me_flag.png",
+        "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\me_flag.png"
     },
     {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\si_flag.png",
@@ -216,12 +216,12 @@
         "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\jp_flag.png"
     },
     {
-        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\kn_flag.png",
-        "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\kn_flag.png"
-    },
-    {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\bo_flag.png",
         "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\bo_flag.png"
+    },
+    {
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\kn_flag.png",
+        "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\mipmap-xhdpi-v4\\kn_flag.png"
     },
     {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\gg_flag.png",

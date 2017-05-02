@@ -40,6 +40,10 @@
         "source": "C:\\Users\\priya\\.android\\build-cache\\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_up.xml",
+        "source": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\src\\main\\res\\anim\\slide_up.xml"
+    },
+    {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\priya\\.android\\build-cache\\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },

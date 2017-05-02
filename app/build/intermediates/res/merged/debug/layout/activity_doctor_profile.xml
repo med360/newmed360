@@ -7,10 +7,10 @@
     tools:context="info.androidhive.loginandregistration.activity.DoctorProfile">
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="344dp"
-        android:layout_height="495dp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp"
+        android:layout_width="380dp"
+        android:layout_height="513dp"
+        tools:layout_editor_absoluteY="-3dp"
+        tools:layout_editor_absoluteX="2dp"
         tools:ignore="MissingConstraints">
 
 
@@ -21,22 +21,25 @@
         android:gravity="center"
         android:orientation="vertical"
         android:weightSum="1"
-        android:layout_alignParentTop="true"
-        tools:ignore="UselessParent">
+        tools:ignore="UselessParent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
 
 
         <com.android.volley.toolbox.NetworkImageView
-            android:layout_marginTop="20dip"
             android:id="@+id/doctoreimage"
-            android:layout_width="180dp"
-            android:layout_height="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="20dip"
 
+            android:layout_weight="0.74"
             android:scaleType="centerCrop"
             app:sriv_border_color="#FFCC00"
             app:sriv_border_width="2dp"
-            app:sriv_oval="true"
-            android:layout_weight="0.77" />
+            app:sriv_oval="true" />
 
 
         <TextView
@@ -84,30 +87,29 @@
         <Button
             android:id="@+id/btnbook"
             android:layout_width="276dp"
-            android:layout_height="40dip"
+            android:layout_height="28dp"
             android:layout_marginTop="20dip"
             android:layout_marginBottom="10dip"
             android:background="@color/btn_logut_bg"
             android:text="@string/request_appointment"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:textSize="15sp"
-        android:layout_weight="0.15" />
+            android:textSize="15sp" />
 
         <LinearLayout
 
             android:layout_width="fill_parent"
-            android:layout_height="46dp"
+            android:layout_height="48dp"
             android:gravity="center"
             android:orientation="vertical"
             android:weightSum="1">
 
             <android.support.design.widget.BottomNavigationView
                 android:id="@+id/navigation"
-                android:layout_marginTop="10dip"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
+                android:layout_marginTop="10dip"
                 android:background="?android:attr/windowBackground"
                 app:menu="@menu/navigation" />
 
