@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <string-array name="country_arrays">
+        <item>Select</item>
         <item>Afghanistan</item>
         <item>Aland Islands</item>
         <item>Albania</item>
@@ -243,6 +244,7 @@
 
     </string-array>
     <string-array name="gender">
+        <item>Select</item>
         <item>Male</item>
         <item>Female</item>
     </string-array>
@@ -1008,7 +1010,7 @@
     <string name="btn_register">REGISTER</string>
     <string name="btn_start_location_updates">START LOCATION UPDATES</string>
     <string name="btn_stop_location_updates">STOP LOCATION UPDATES</string>
-    <string name="cancel">Cancel</string>
+    <string name="cancel">Reset</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
@@ -1053,9 +1055,11 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="profile">Profile</string>
+    <string name="prompt">Select</string>
     <string name="request_appointment">REQUEST APPOINTMENT</string>
     <string name="reset">reset</string>
     <string name="search_menu_title">Search</string>
+    <string name="selsp">Select</string>
     <string name="specialty">Specialty</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_atv_places">Enter Place Here</string>

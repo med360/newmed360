@@ -151,6 +151,7 @@
 
         <android.support.design.widget.BottomNavigationView
             android:id="@+id/navigation"
+            android:title="@string/profile"
             android:layout_width="match_parent"
             android:layout_height="26dp"
             android:layout_gravity="bottom"
