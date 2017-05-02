@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -81,6 +81,11 @@
             android:name="info.androidhive.loginandregistration.activity.BottomNav"
             android:exported="true"
             android:label="@string/title_activity_bottom_nav" />
+        <activity
+            android:name="info.androidhive.loginandregistration.activity.Booking"
+            android:exported="true" />
+        <activity android:name="info.androidhive.loginandregistration.activity.ViewBooking" />
+        <activity android:name="info.androidhive.loginandregistration.activity.ViewSingleBooking" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

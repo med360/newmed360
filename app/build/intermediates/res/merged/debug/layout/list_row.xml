@@ -5,11 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="info.androidhive.loginandregistration.activity.Viewdoctor">
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/list_row_selector"
-        android:padding="8dp" >
+        android:padding="8dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp">
 
         <!-- Thumbnail Image -->
         <com.android.volley.toolbox.NetworkImageView
@@ -67,8 +70,8 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:textColor="@color/year"
-            android:visibility="gone"
-            android:textSize="@dimen/year" />
+            android:textSize="@dimen/year"
+            android:visibility="gone" />
 
     </RelativeLayout>
 

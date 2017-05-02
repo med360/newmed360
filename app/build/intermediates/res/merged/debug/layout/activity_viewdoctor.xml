@@ -26,51 +26,76 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp">
+
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="400dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
             android:layout_gravity="center"
             android:orientation="vertical"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:weightSum="1">
+            android:weightSum="1"
+            tools:ignore="UselessParent">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:orientation="horizontal"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:weightSum="1">
-            <AutoCompleteTextView
-                android:id="@+id/atv_places"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:hint="Enter Place Here"
-                android:layout_weight="0.33" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:weightSum="1">
 
-            <Button
-                android:id="@+id/detbtn"
-                android:layout_width="68dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dip"
-                android:background="#ff6861"
-                android:text="DETECT"
-                android:textColor="#FFFFFF" />
-        </LinearLayout>
+                <AutoCompleteTextView
+                    android:id="@+id/atv_places"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.01"
+                    android:hint="@string/enter_place_here" />
+
+                <Button
+                    android:id="@+id/detbtn"
+                    android:layout_width="59dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="25dip"
+                    android:background="#ff6861"
+                    android:text="@string/detect"
+                    android:textColor="#FFFFFF"
+                    tools:ignore="RtlHardcoded" />
+
+                <Button
+                    android:id="@+id/filter"
+                    android:layout_width="42dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="25dip"
+                    android:layout_weight="0.21"
+                    android:background="#ff6861"
+                    android:text="@string/filter"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8sp"
+                    tools:ignore="RtlHardcoded,SmallSp" />
+            </LinearLayout>
+
 
             <ListView
                 android:id="@+id/list"
-                android:layout_width="319dp"
-                android:layout_height="403dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
+                android:layout_width="wrap_content"
+                android:layout_height="348dp"
                 android:divider="@color/list_divider"
                 android:dividerHeight="1dp"
                 android:listSelector="@drawable/list_row_selector" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
 
             <android.support.design.widget.BottomNavigationView
                 android:id="@+id/navigation"

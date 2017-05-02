@@ -9,22 +9,22 @@
     <item
         android:id="@+id/messg"
         android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="Messages" />
+        android:title="@string/messages" />
 
     <item
     android:id="@+id/apointment"
     android:icon="@drawable/ic_notifications_black_24dp"
-    android:title="Appointments" />
+    android:title="@string/appointments" />
 
     <item
         android:id="@+id/profilenav"
         android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="Profile" />
+        android:title="@string/profile" />
 
     <item
         android:id="@+id/logoutnav"
         android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="LOGOUT" />
+        android:title="@string/logout" />
 
 
 

@@ -1,7 +1,7 @@
-#Tue Apr 18 21:03:09 GST 2017
-base.0=C\:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_990b9d54cbdacb195ccd0f06a3646a1f97fb00c3
+#Tue May 02 10:31:14 GST 2017
+base.0=C\:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b523719c73516422580ec1bf1b460c0d606136ae
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=C\:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e539763ee86eb26dc166de897330a5d1ade0a502\\classes.dex
-base.1=C\:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e539763ee86eb26dc166de897330a5d1ade0a502
-file.0=C\:\\Users\\Siya\\Desktop\\MED360\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration v2\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_990b9d54cbdacb195ccd0f06a3646a1f97fb00c3\\classes.dex
+file.1=C\:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1a45c4c659cc08b7d27e0fd5976caac0b88c057f\\classes.dex
+base.1=C\:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1a45c4c659cc08b7d27e0fd5976caac0b88c057f
+file.0=C\:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b523719c73516422580ec1bf1b460c0d606136ae\\classes.dex
