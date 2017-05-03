@@ -6,29 +6,38 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1493786712628"
+    timestamp="1493801919405"
     token="1529168232529510680"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="10254" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1597" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2199" />
 
+    <artifact
+        location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
+        location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
@@ -37,12 +46,6 @@
         type="SPLIT" />
     <artifact
         location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -56,20 +59,26 @@
     <artifact
         location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1493786712628"
+        timestamp="1493801919405"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
+            location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
@@ -78,12 +87,6 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -97,9 +100,6 @@
         <artifact
             location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

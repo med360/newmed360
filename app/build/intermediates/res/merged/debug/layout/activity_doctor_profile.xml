@@ -4,121 +4,140 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="info.androidhive.loginandregistration.activity.DoctorProfile">
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="380dp"
-        android:layout_height="513dp"
-        tools:layout_editor_absoluteY="-3dp"
-        tools:layout_editor_absoluteX="2dp"
-        tools:ignore="MissingConstraints">
-
+    tools:context="info.androidhive.loginandregistration.activity.Booking">
 
     <LinearLayout
-
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:gravity="center"
-        android:orientation="vertical"
+        android:padding="10dp"
         android:weightSum="1"
-        tools:ignore="UselessParent"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
-
-
-        <com.android.volley.toolbox.NetworkImageView
-            android:id="@+id/doctoreimage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dip"
-
-            android:layout_weight="0.74"
-            android:scaleType="centerCrop"
-            app:sriv_border_color="#FFCC00"
-            app:sriv_border_width="2dp"
-            app:sriv_oval="true" />
-
-
-        <TextView
-            android:id="@+id/doctorname"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:textColor="@color/lbl_name"
-            android:textSize="20sp" />
-        <TextView
-            android:id="@+id/doctornationality"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:textColor="@color/lbl_name"
-            android:textSize="20sp" />
-        <TextView
-            android:id="@+id/doctorgender"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:textColor="@color/lbl_name"
-            android:textSize="20sp" />
-
-        <TextView
-            android:id="@+id/doctorspcl"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:textColor="@color/lbl_name"
-            android:textSize="20sp" />
-
-
-        <Button
-            android:id="@+id/btnmsg"
-            android:layout_width="276dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="20dip"
-            android:background="@color/btn_logut_bg"
-            android:text="@string/message_doctor"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textSize="15sp" />
-
-        <Button
-            android:id="@+id/btnbook"
-            android:layout_width="276dp"
-            android:layout_height="28dp"
-            android:layout_marginTop="20dip"
-            android:layout_marginBottom="10dip"
-            android:background="@color/btn_logut_bg"
-            android:text="@string/request_appointment"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textSize="15sp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-
-            android:layout_width="fill_parent"
-            android:layout_height="48dp"
-            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.95"
             android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:weightSum="1">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/doctoreimage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:layout_marginLeft="100dip"
+                android:layout_marginRight="8dp" />
+
+            <!-- Movie Title -->
+            <TextView
+                android:id="@+id/doctorname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/bkthumbnail"
+                android:layout_marginTop="10dip"
+                android:layout_toRightOf="@+id/bkthumbnail"
+                android:textColor="#000000"
+                android:textSize="16dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/doctorhp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dip"
+                android:layout_toRightOf="@+id/bkthumbnail"
+                android:textColor="#000000"
+                android:textSize="12dip" />
+
+            <TextView
+                android:id="@+id/doctorhpadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_toRightOf="@+id/bkthumbnail"
+                android:textColor="#000000"
+                android:textSize="10dip" />
+
+            <TextView
+                android:id="@+id/doctornationality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dip"
+                android:layout_toRightOf="@+id/bkthumbnail"
+                android:textColor="#000000"
+                android:textSize="10dip" />
+
+            <TextView
+                android:id="@+id/doctorgender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dip"
+                android:layout_toRightOf="@+id/bkthumbnail"
+                android:textColor="#000000"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/doctorspcl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dip"
+                android:layout_toRightOf="@+id/bkthumbnail"
+                android:textColor="#000000"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btnmsg"
+                android:layout_width="276dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dip"
+                android:background="@color/btn_logut_bg"
+                android:text="@string/message_doctor"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnbook"
+                android:layout_width="276dp"
+                android:layout_height="28dp"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="20dip"
+                android:background="@color/btn_logut_bg"
+                android:text="@string/request_appointment"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
 
             <android.support.design.widget.BottomNavigationView
                 android:id="@+id/navigation"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="bottom"
-                android:layout_marginTop="10dip"
                 android:background="?android:attr/windowBackground"
                 app:menu="@menu/navigation" />
+            <!-- Link to Login Screen -->
 
         </LinearLayout>
 
 
     </LinearLayout>
 
-
-
-    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
