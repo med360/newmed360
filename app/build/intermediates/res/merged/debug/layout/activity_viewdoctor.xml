@@ -68,17 +68,19 @@
                     android:background="#ff6861"
                     android:text="@string/detect"
                     android:textColor="#FFFFFF"
+
                     tools:ignore="RtlHardcoded" />
 
                 <Button
                     android:id="@+id/filter"
-                    android:layout_width="42dp"
+                    android:layout_width="49dp"
                     android:layout_height="34dp"
                     android:layout_marginLeft="25dip"
-                    android:layout_weight="0.21"
-                    android:text="FILTER"
-                    android:textColor="#FFFFFF"
+                    android:layout_weight="0.24"
+                    android:background="#ff6861"
+                    android:text="FILTER "
 
+                    android:textColor="#FFFFFF"
                     android:textSize="8sp"
                     tools:ignore="RtlHardcoded,SmallSp" />
             </LinearLayout>

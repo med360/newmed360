@@ -1,4 +1,4 @@
-#Wed May 03 03:31:55 GST 2017
+#Wed May 03 08:44:04 GST 2017
 base.0=C\:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b523719c73516422580ec1bf1b460c0d606136ae
 renamed.1=classes2.dex
 renamed.0=classes.dex
