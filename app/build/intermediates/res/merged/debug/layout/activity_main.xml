@@ -161,5 +161,63 @@
 
     </LinearLayout>
 
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+    <LinearLayout
+        android:id="@+id/toolbarmenucontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/med360" />
+
+        <ImageButton
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/med360"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/med360" />
+
+        <ImageButton
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/med360"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/med360" />
+
+
+    </LinearLayout>
+    </android.support.v7.widget.Toolbar>
 </RelativeLayout>
+
+
+
+
+

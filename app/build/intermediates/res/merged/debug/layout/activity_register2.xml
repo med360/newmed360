@@ -47,16 +47,16 @@
             android:textColor="@color/input_register"
             android:textColorHint="@color/input_register_hint" />
 
-        <EditText
+
+        <Spinner
             android:id="@+id/national"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="327dp"
+            android:layout_height="40dp"
             android:layout_marginBottom="10dp"
             android:background="@color/input_register_bg"
             android:hint="@string/hint_nationality"
-            android:inputType="textCapWords"
             android:padding="10dp"
-            android:singleLine="true"
+            android:entries="@array/country_arrays"
             android:textColor="@color/input_register"
             android:textColorHint="@color/input_register_hint" />
 
@@ -91,6 +91,19 @@
             android:textColor="@color/input_register"
             android:textColorHint="@color/input_register_hint" />
 
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/address"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+
 
         <Spinner
             android:id="@+id/bgp"
@@ -103,6 +116,15 @@
             android:textColor="@color/input_register"
             android:textColorHint="@color/input_register_hint" />
 
+
+        <CheckBox
+            android:id="@+id/bloodgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.87"
+            android:text="Do you wish to Donate Blood?"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
 
         <Button
             android:id="@+id/btnRegister"

@@ -52,12 +52,16 @@
         "source": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\activity_doctor_profile.xml"
     },
     {
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\priya\\.android\\build-cache\\5d9a6a858babdd40eb6670f7c42de1520670454c\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_country.xml",
         "source": "C:\\Users\\priya\\.android\\build-cache\\f024f61776020d69812fdec84036efde4e27afab\\output\\res\\layout\\item_country.xml"
     },
     {
-        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\priya\\.android\\build-cache\\5d9a6a858babdd40eb6670f7c42de1520670454c\\output\\res\\layout\\design_navigation_item.xml"
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",

@@ -1,113 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="info.androidhive.loginandregistration.activity.Booking">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:gravity="center"
-        android:padding="10dp"
-        android:weightSum="1"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/header_cover_image"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_weight="0.95"
-            android:orientation="vertical"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:weightSum="1">
+            android:layout_height="90dp"
+            android:scaleType="centerCrop" />
 
-            <com.android.volley.toolbox.NetworkImageView
-                android:id="@+id/doctoreimage"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
 
-                android:layout_marginLeft="100dip"
-                android:layout_marginRight="8dp" />
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/doctoreimage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/header_cover_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-60dp"
+            android:background="@drawable/profile_circular_border_imageview"
+            android:elevation="5dp"
+            android:padding="20dp"
+            android:scaleType="centerCrop" />
 
-            <!-- Movie Title -->
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_cover_image"
+            android:background="#ebca0707"
+            android:elevation="4dp"
+            android:paddingBottom="24dp">
+
+
+
             <TextView
                 android:id="@+id/doctorname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignTop="@+id/bkthumbnail"
-                android:layout_marginTop="10dip"
-                android:layout_toRightOf="@+id/bkthumbnail"
-                android:textColor="#000000"
-                android:textSize="16dip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="76dp"
+                android:textColor="#fff"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/doctorhp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/doctorname"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:textColor="#fff"
+                android:textSize="14sp" />
 
-                android:layout_marginTop="5dip"
-                android:layout_toRightOf="@+id/bkthumbnail"
-                android:textColor="#000000"
-                android:textSize="12dip" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_layout"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
 
             <TextView
                 android:id="@+id/doctorhpadd"
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dip"
-                android:layout_toRightOf="@+id/bkthumbnail"
-                android:textColor="#000000"
-                android:textSize="10dip" />
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
 
             <TextView
                 android:id="@+id/doctornationality"
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-
-                android:layout_marginTop="5dip"
-                android:layout_toRightOf="@+id/bkthumbnail"
-                android:textColor="#000000"
-                android:textSize="10dip" />
+                android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
 
             <TextView
                 android:id="@+id/doctorgender"
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-
-                android:layout_marginTop="5dip"
-                android:layout_toRightOf="@+id/bkthumbnail"
-                android:textColor="#000000"
-                android:textSize="15dip"
-                android:textStyle="bold" />
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
 
             <TextView
                 android:id="@+id/doctorspcl"
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp" />
 
-                android:layout_marginTop="5dip"
-                android:layout_toRightOf="@+id/bkthumbnail"
-                android:textColor="#000000"
-                android:textSize="15dip"
-                android:textStyle="bold" />
-
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Android Profile UI Design" />
 
             <Button
                 android:id="@+id/btnmsg"
-                android:layout_width="276dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="20dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:background="@color/btn_logut_bg"
                 android:text="@string/message_doctor"
                 android:textAllCaps="false"
@@ -116,28 +142,35 @@
 
             <Button
                 android:id="@+id/btnbook"
-                android:layout_width="276dp"
-                android:layout_height="28dp"
-                android:layout_marginBottom="10dip"
-                android:layout_marginTop="20dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:background="@color/btn_logut_bg"
                 android:text="@string/request_appointment"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp" />
 
-            <android.support.design.widget.BottomNavigationView
-                android:id="@+id/navigation"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="bottom"
-                android:background="?android:attr/windowBackground"
-                app:menu="@menu/navigation" />
-            <!-- Link to Login Screen -->
+                android:layout_below="@+id/layout">
+
+                <android.support.design.widget.BottomNavigationView
+                    android:id="@+id/navigation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="10dip"
+                    android:background="?android:attr/windowBackground"
+                    app:menu="@menu/navigation" />
+
+            </LinearLayout>
+
 
         </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
 
-
-    </LinearLayout>
-
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-85:12
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-100:12
 	package
 		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml
@@ -29,6 +29,13 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pr
 MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\priya\.android\build-cache\4359f8ea2e6813ca31244db9a6578ca91e1de05a\output\AndroidManifest.xml:23:5-43
 MERGED from [com.google.android.gms:play-services-location:10.2.1] C:\Users\priya\.android\build-cache\234505389bd6d5026fbc50b31bdbf9fb329953df\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\priya\.android\build-cache\5d5ff0a7a87e3b984a2d1f470ef2c4afcee29dff\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\priya\.android\build-cache\89080a0b9801bee8936d851588a92be410195283\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\priya\.android\build-cache\abb8e566f1cf77ae596c668a0cb45ce617594e3e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\priya\.android\build-cache\2adfe05adc0251bba1a1ff46c40bd1a00c5ffb43\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\priya\.android\build-cache\55a2d9d6f375eef9ff5338961da90fd9b651ddac\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\priya\.android\build-cache\c53646fc642c14d80df01cf25c25575134854814\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\priya\.android\build-cache\d5730a99ecbd1e3d45cd2d4f41bc04a251e29159\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\priya\.android\build-cache\e3fe35855bbe65f2f5215b2f24b1c91db5a43677\output\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\priya\.android\build-cache\8b85bfc1a27677e8646eb3325c5a3a3dd5f2bfac\output\AndroidManifest.xml:21:5-23:54
@@ -36,7 +43,6 @@ MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\priya\.androi
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\priya\.android\build-cache\46458ba3bafb5e0071a42a51665cee3509fb3feb\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\priya\.android\build-cache\7a200d66ef1f9167d98460e8c6b2adf771e96630\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\priya\.android\build-cache\872c4f202935dd23ecc2d2d73b8ed08c596c17b2\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\priya\.android\build-cache\89080a0b9801bee8936d851588a92be410195283\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\priya\.android\build-cache\6dea780991abef41b36127d8a6780a79c309fc8a\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\priya\.android\build-cache\5d9a6a858babdd40eb6670f7c42de1520670454c\output\AndroidManifest.xml:23:9-59
@@ -51,6 +57,9 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\priya\.android\
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\priya\.android\build-cache\4359f8ea2e6813ca31244db9a6578ca91e1de05a\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\priya\.android\build-cache\55a2d9d6f375eef9ff5338961da90fd9b651ddac\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -78,7 +87,7 @@ ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration
 	android:name
 		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:17:22-73
 application
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:20:5-83:19
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:20:5-98:19
 MERGED from [com.github.ekimual:country-picker-x:1.0.0] C:\Users\priya\.android\build-cache\f024f61776020d69812fdec84036efde4e27afab\output\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\priya\.android\build-cache\5d9a6a858babdd40eb6670f7c42de1520670454c\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\priya\.android\build-cache\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\output\AndroidManifest.xml:29:5-20
@@ -89,6 +98,13 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pr
 MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\priya\.android\build-cache\4359f8ea2e6813ca31244db9a6578ca91e1de05a\output\AndroidManifest.xml:24:5-19
 MERGED from [com.google.android.gms:play-services-location:10.2.1] C:\Users\priya\.android\build-cache\234505389bd6d5026fbc50b31bdbf9fb329953df\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\priya\.android\build-cache\5d5ff0a7a87e3b984a2d1f470ef2c4afcee29dff\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\priya\.android\build-cache\89080a0b9801bee8936d851588a92be410195283\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\priya\.android\build-cache\abb8e566f1cf77ae596c668a0cb45ce617594e3e\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\priya\.android\build-cache\2adfe05adc0251bba1a1ff46c40bd1a00c5ffb43\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\priya\.android\build-cache\55a2d9d6f375eef9ff5338961da90fd9b651ddac\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\priya\.android\build-cache\c53646fc642c14d80df01cf25c25575134854814\output\AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\priya\.android\build-cache\d5730a99ecbd1e3d45cd2d4f41bc04a251e29159\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\priya\.android\build-cache\e3fe35855bbe65f2f5215b2f24b1c91db5a43677\output\AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\priya\.android\build-cache\8b85bfc1a27677e8646eb3325c5a3a3dd5f2bfac\output\AndroidManifest.xml:29:5-20
@@ -96,7 +112,6 @@ MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\priya\.androi
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\priya\.android\build-cache\46458ba3bafb5e0071a42a51665cee3509fb3feb\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\priya\.android\build-cache\7a200d66ef1f9167d98460e8c6b2adf771e96630\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\priya\.android\build-cache\872c4f202935dd23ecc2d2d73b8ed08c596c17b2\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\priya\.android\build-cache\89080a0b9801bee8936d851588a92be410195283\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\priya\.android\build-cache\6dea780991abef41b36127d8a6780a79c309fc8a\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:24:9-41
@@ -105,7 +120,7 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\priya\.android\
 	android:allowBackup
 		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:22:9-35
 	android:icon
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:23:9-45
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:23:9-40
 	android:theme
 		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:25:9-44
 	android:name
@@ -117,124 +132,156 @@ MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\priy
 		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:28:13-66
 	android:name
 		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:27:13-58
-activity#info.androidhive.loginandregistration.activity.LoginActivity
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:30:9-36:20
-	android:label
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:32:13-45
-	android:launchMode
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:33:13-43
-	android:windowSoftInputMode
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:34:13-52
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:31:13-51
-activity#info.androidhive.loginandregistration.activity.SplashScreen
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:37:9-43:20
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:37:19-56
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:38:13-42:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:39:17-69
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:39:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:41:17-77
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:41:27-74
-activity#info.androidhive.loginandregistration.activity.RegisterActivity
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:44:9-48:55
-	android:label
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:46:13-45
-	android:launchMode
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:47:13-43
-	android:windowSoftInputMode
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:48:13-52
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:45:13-54
-activity#info.androidhive.loginandregistration.activity.MainActivity
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:50:9-53:46
-	android:label
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:52:13-45
-	android:launchMode
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:53:13-43
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:51:13-50
-activity#info.androidhive.loginandregistration.activity.Register2Activity
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:54:9-62:20
-	android:label
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:56:13-61
-	android:parentActivityName
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:57:13-68
-	android:theme
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:58:13-48
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:55:13-55
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:59:13-61:99
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:30:9-32:55
 	android:value
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:61:17-96
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:32:13-52
 	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:60:17-63
-activity#info.androidhive.loginandregistration.activity.Viewdoctor
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:63:9-65:39
-	android:exported
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:65:13-36
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:64:13-48
-activity#info.androidhive.loginandregistration.activity.Locationact
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:66:9-68:39
-	android:exported
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:68:13-36
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:67:13-49
-activity#info.androidhive.loginandregistration.activity.Location2
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:69:9-56
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:69:19-53
-activity#info.androidhive.loginandregistration.activity.ShowLocationActivity
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:70:9-67
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:70:19-64
-activity#info.androidhive.loginandregistration.activity.DoctorProfile
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:71:9-73:39
-	android:exported
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:73:13-36
-	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:72:13-51
-activity#info.androidhive.loginandregistration.activity.BottomNav
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:74:9-77:65
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:31:13-58
+activity#info.androidhive.loginandregistration.activity.LoginActivity
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:34:9-38:64
 	android:label
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:77:13-62
-	android:exported
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:76:13-36
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:36:13-45
+	android:launchMode
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:37:13-43
+	android:windowSoftInputMode
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:38:13-52
 	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:75:13-47
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:35:13-51
+activity#info.androidhive.loginandregistration.activity.SplashScreen
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:39:9-45:20
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:39:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:43:27-74
+activity#info.androidhive.loginandregistration.activity.RegisterActivity
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:46:9-50:55
+	android:label
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:48:13-45
+	android:launchMode
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:49:13-43
+	android:windowSoftInputMode
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:50:13-52
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:47:13-54
+activity#info.androidhive.loginandregistration.activity.MainActivity
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:51:9-54:46
+	android:label
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:53:13-45
+	android:launchMode
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:54:13-43
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:52:13-50
+activity#info.androidhive.loginandregistration.activity.Register2Activity
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:55:9-63:20
+	android:label
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:57:13-61
+	android:parentActivityName
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:58:13-68
+	android:theme
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:59:13-48
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:56:13-55
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:60:13-62:99
+	android:value
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:62:17-96
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:61:17-63
+activity#info.androidhive.loginandregistration.activity.Viewdoctor
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:64:9-66:39
+	android:exported
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:65:13-48
+activity#info.androidhive.loginandregistration.activity.Locationact
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:67:9-69:39
+	android:exported
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:69:13-36
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:68:13-49
+activity#info.androidhive.loginandregistration.activity.Location2
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:70:9-56
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:70:19-53
+activity#info.androidhive.loginandregistration.activity.ShowLocationActivity
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:71:9-67
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:71:19-64
+activity#info.androidhive.loginandregistration.activity.DoctorProfile
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:72:9-74:39
+	android:exported
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:74:13-36
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:73:13-51
+activity#info.androidhive.loginandregistration.activity.BottomNav
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:75:9-78:65
+	android:label
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:78:13-62
+	android:exported
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:77:13-36
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:76:13-47
 activity#info.androidhive.loginandregistration.activity.Booking
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:78:9-80:39
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:79:9-81:39
 	android:exported
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:80:13-36
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:81:13-36
 	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:79:13-45
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:80:13-45
 activity#info.androidhive.loginandregistration.activity.ViewBooking
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:81:9-58
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:82:9-58
 	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:81:19-55
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:82:19-55
 activity#info.androidhive.loginandregistration.activity.ViewSingleBooking
-ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:82:9-73
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:83:9-64
 	android:name
-		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:82:19-61
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:83:19-61
+service#info.androidhive.loginandregistration.helper.CustomFirebaseMessagingService
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:85:9-89:19
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:85:18-71
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:86:13-88:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:87:17-78
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:87:25-75
+service#info.androidhive.loginandregistration.helper.CustomFirebaseInstanceIDService
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:90:9-94:19
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:90:18-72
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:91:13-93:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:92:17-80
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:92:25-77
+activity#info.androidhive.loginandregistration.activity.MapsActivity
+ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:96:9-97:48
+	android:exported
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:97:13-36
+	android:name
+		ADDED from C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:96:19-56
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\priya\.android\build-cache\5d9a6a858babdd40eb6670f7c42de1520670454c\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\priya\.android\build-cache\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\priya\.android\build-cache\e59d5b50b74a0e288e7324e72ec9cfa9c51a1a1d\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\priya\.android\build-cache\f8adb62422df1e854b5242f29e0fed6bfd83d9aa\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:transition:25.3.1] C:\Users\priya\.android\build-cache\978a822909913bae3eb4c04728faf38ca518b41b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\priya\.android\build-cache\89080a0b9801bee8936d851588a92be410195283\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\priya\.android\build-cache\8b85bfc1a27677e8646eb3325c5a3a3dd5f2bfac\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\priya\.android\build-cache\4d693c48e0812ecd9d91e0166d3a6141ad8091a9\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\priya\.android\build-cache\46458ba3bafb5e0071a42a51665cee3509fb3feb\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\priya\.android\build-cache\7a200d66ef1f9167d98460e8c6b2adf771e96630\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\priya\.android\build-cache\872c4f202935dd23ecc2d2d73b8ed08c596c17b2\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\priya\.android\build-cache\89080a0b9801bee8936d851588a92be410195283\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\priya\.android\build-cache\6dea780991abef41b36127d8a6780a79c309fc8a\output\AndroidManifest.xml:25:5-27:34
 	android:value
 		ADDED from [com.android.support:design:25.3.1] C:\Users\priya\.android\build-cache\5d9a6a858babdd40eb6670f7c42de1520670454c\output\AndroidManifest.xml:27:9-31
@@ -242,6 +289,9 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\priya\.android\
 		ADDED from [com.android.support:design:25.3.1] C:\Users\priya\.android\build-cache\5d9a6a858babdd40eb6670f7c42de1520670454c\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\priya\.android\build-cache\4359f8ea2e6813ca31244db9a6578ca91e1de05a\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\priya\.android\build-cache\55a2d9d6f375eef9ff5338961da90fd9b651ddac\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:19:5-78
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\priya\.android\build-cache\4359f8ea2e6813ca31244db9a6578ca91e1de05a\output\AndroidManifest.xml:19:22-76
 uses-feature#0x00020000
@@ -258,3 +308,101 @@ ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\priya\.an
 		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\priya\.android\build-cache\5d5ff0a7a87e3b984a2d1f470ef2c4afcee29dff\output\AndroidManifest.xml:19:86-145
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\priya\.android\build-cache\5d5ff0a7a87e3b984a2d1f470ef2c4afcee29dff\output\AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\priya\.android\build-cache\abb8e566f1cf77ae596c668a0cb45ce617594e3e\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\priya\.android\build-cache\abb8e566f1cf77ae596c668a0cb45ce617594e3e\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\priya\.android\build-cache\abb8e566f1cf77ae596c668a0cb45ce617594e3e\output\AndroidManifest.xml:23:18-87
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\priya\.android\build-cache\55a2d9d6f375eef9ff5338961da90fd9b651ddac\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\priya\.android\build-cache\55a2d9d6f375eef9ff5338961da90fd9b651ddac\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\priya\.android\build-cache\55a2d9d6f375eef9ff5338961da90fd9b651ddac\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\priya\.android\build-cache\c53646fc642c14d80df01cf25c25575134854814\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\priya\.android\build-cache\c53646fc642c14d80df01cf25c25575134854814\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\priya\.android\build-cache\c53646fc642c14d80df01cf25c25575134854814\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\priya\.android\build-cache\c53646fc642c14d80df01cf25c25575134854814\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\priya\.android\build-cache\c53646fc642c14d80df01cf25c25575134854814\output\AndroidManifest.xml:6:79-143

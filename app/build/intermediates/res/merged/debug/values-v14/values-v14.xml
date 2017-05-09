@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCzyh3ppILdP4ggq2t8vKcpUHzgUWtH_zo</string>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- API 14 theme customizations can go here. -->
     </style>
