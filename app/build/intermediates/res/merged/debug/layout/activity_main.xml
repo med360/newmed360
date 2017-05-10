@@ -161,14 +161,7 @@
 
     </LinearLayout>
 
-    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar_bottom"
@@ -182,39 +175,45 @@
         android:id="@+id/toolbarmenucontainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="50dip"
         android:orientation="horizontal"
         android:weightSum="3">
-
         <ImageButton
-            android:layout_width="10dp"
-            android:layout_height="10dp"
-            android:layout_weight="1"
-
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:layout_marginRight="20dip"
             android:clickable="true"
             android:scaleType="fitXY"
-            android:src="@drawable/med360" />
-
+            app:srcCompat="@drawable/ic_dashboard_black_24dp" />
         <ImageButton
-            android:layout_width="10dp"
-            android:layout_height="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/med360"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
             android:clickable="true"
             android:scaleType="fitXY"
-            android:src="@drawable/med360" />
+            app:srcCompat="@drawable/ic_dashboard_black_24dp" />
+
+
 
         <ImageButton
-            android:layout_width="10dp"
-            android:layout_height="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/med360"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
             android:clickable="true"
             android:scaleType="fitXY"
-            android:src="@drawable/med360" />
+            app:srcCompat="@drawable/ic_dashboard_black_24dp" />
 
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
     </android.support.v7.widget.Toolbar>
+
 </RelativeLayout>
 
 

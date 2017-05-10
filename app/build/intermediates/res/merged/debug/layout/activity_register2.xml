@@ -56,7 +56,7 @@
             android:background="@color/input_register_bg"
             android:hint="@string/hint_nationality"
             android:padding="10dp"
-            android:entries="@array/country_arrays"
+
             android:textColor="@color/input_register"
             android:textColorHint="@color/input_register_hint" />
 
