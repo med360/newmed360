@@ -11,15 +11,38 @@
         android:orientation="vertical"
         android:weightSum="1"
         tools:ignore="UselessParent"
-        android:layout_marginBottom="61dp"
-        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
 
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/userimage"
+            android:layout_width="150dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="20dip"
+            android:layout_gravity="center"
 
 
-                        <TextView
+            android:scaleType="centerCrop"
+            app:sriv_border_color="#FFCC00"
+            app:sriv_border_width="2dp"
+            app:sriv_oval="true" />
+
+        <Button
+            android:id="@+id/btnchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@color/bg_login"
+            android:text="Change Picture"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+
+
+        <TextView
                             android:id="@+id/textView2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -179,6 +202,7 @@
         android:orientation="horizontal"
         android:weightSum="3">
         <ImageButton
+            android:id="@+id/imgbtn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 android:layout_marginRight="20dip"
@@ -196,6 +220,7 @@ android:layout_marginRight="20dip"
 
 
         <ImageButton
+            android:id="@+id/imgbtn4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dip"
@@ -205,12 +230,7 @@ android:layout_marginRight="20dip"
 
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hello_world"
-            android:textStyle="bold"
-            android:textColor="#FFFFFF" />
+
     </LinearLayout>
     </android.support.v7.widget.Toolbar>
 

@@ -45,7 +45,7 @@
 
             <LinearLayout
                 android:layout_width="350dp"
-                android:layout_height="80dp"
+                android:layout_height="61dp"
                 android:layout_gravity="center"
                 android:orientation="horizontal"
                 android:paddingLeft="20dp"
@@ -56,33 +56,20 @@
                     android:id="@+id/atv_places"
                     android:layout_width="160dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.01"
+                    android:layout_weight="1.06"
                     android:hint="@string/enter_place_here" />
 
 
                 <Button
                     android:id="@+id/detbtn"
-                    android:layout_width="59dp"
-                    android:layout_height="34dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
                     android:layout_marginLeft="25dip"
-                    android:background="#ff6861"
-                    android:text="@string/detect"
-                    android:textColor="#FFFFFF"
+                    android:background="@drawable/locator"
+
 
                     tools:ignore="RtlHardcoded" />
 
-                <Button
-                    android:id="@+id/filter"
-                    android:layout_width="49dp"
-                    android:layout_height="34dp"
-                    android:layout_marginLeft="25dip"
-                    android:layout_weight="0.24"
-                    android:background="#ff6861"
-                    android:text="FILTER "
-
-                    android:textColor="#FFFFFF"
-                    android:textSize="8sp"
-                    tools:ignore="RtlHardcoded,SmallSp" />
             </LinearLayout>
 
 

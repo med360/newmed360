@@ -3,66 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\priya\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
-        <dex dex="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_c649ea49500fd56b26aba41361bb355c01c258fc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\priya\.android\build-cache\05b0cf3eb6141048cc2aa8c41c4c1146d5339154\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
-        <dex dex="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eb3ccf25483d3a50bface2dd4f7f9f77d113480b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\priya\.android\build-cache\55a2d9d6f375eef9ff5338961da90fd9b651ddac\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="888983f51cf34f57a93ff16832552f2f15937212">
-        <dex dex="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6a047050e158f136403f0e3f88f5c7639effa1f5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\priya\.android\build-cache\abb8e566f1cf77ae596c668a0cb45ce617594e3e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
-        <dex dex="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ccffb6b8ebb7634e90d6c64e86f4f3105437d2ef\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\priya\.android\build-cache\c53646fc642c14d80df01cf25c25575134854814\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
-        <dex dex="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_021f819022b3106e4741c930d38ba9441e7a1c74\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d1613b74bff42f6ab6ad2b8786adefd671d3ab1e">
+        sha1="84f58909fa5ac0b2742c05bbfb0ae02d3f54aa2d">
         <dex dex="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1a45c4c659cc08b7d27e0fd5976caac0b88c057f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\priya\.android\build-cache\eff6d5a563109c9604a2c85534a568010ca383bf\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
-        <dex dex="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1408e8534f96be616ad40d2607e418ee6f03f950\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -70,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="C:\Users\priya\Documents\MANIPAL\BACKUPv4\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b523719c73516422580ec1bf1b460c0d606136ae\classes.dex" />
     </item>
 
