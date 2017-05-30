@@ -1,242 +1,161 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:weightSum="1"
-        tools:ignore="UselessParent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-
-
-        <com.android.volley.toolbox.NetworkImageView
-            android:id="@+id/userimage"
-            android:layout_width="150dp"
-            android:layout_height="126dp"
-            android:layout_marginTop="20dip"
-            android:layout_gravity="center"
-
-
-            android:scaleType="centerCrop"
-            app:sriv_border_color="#FFCC00"
-            app:sriv_border_width="2dp"
-            app:sriv_oval="true" />
-
-        <Button
-            android:id="@+id/btnchange"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dip"
-            android:background="@color/bg_login"
-            android:text="Change Picture"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textSize="15sp" />
-
-
-
-        <TextView
-                            android:id="@+id/textView2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/welcome"
-                            android:textSize="20sp" />
-
-                        <TextView
-                            android:id="@+id/name"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:padding="10dp"
-                            android:textColor="@color/lbl_name"
-                            android:textSize="24sp" />
-
-                        <TextView
-                            android:id="@+id/email"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textSize="13sp" />
-
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:weightSum="1">
-
-                        <TextView
-                            android:id="@+id/textView3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/born_on"
-                            android:textSize="20sp" />
-
-                        <TextView
-                            android:id="@+id/dob"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:padding="10dp"
-                            android:textColor="@color/lbl_name"
-                            android:textSize="24sp" />
-
-
-    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="464dp"
+        android:fillViewport="true">
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:weightSum="1">
 
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="wrap_content"
+            <RelativeLayout
+                android:id="@+id/profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="288dp"
+                android:layout_below="@+id/header_cover_image"
+                android:background="#ebca0707"
+                android:elevation="4dp"
+                android:paddingBottom="24dp">
+
+                <Button
+                    android:id="@+id/btnchange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="140dip"
+                    android:background="@color/bg_login"
+                    android:layout_centerHorizontal="true"
+                    android:text="Change Picture"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="200dp"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:id="@+id/userimage"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/profile_circular_border_imageview"
+                    android:elevation="5dp"
+                    android:padding="20dp"
+                    android:scaleType="centerInside"
+                    android:layout_marginTop="13dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nationality: "
-                android:textSize="20sp"
-                tools:ignore="HardcodedText" />
-
-            <TextView
-                android:id="@+id/nationality"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:textColor="@color/lbl_name"
-                android:textSize="24sp" />
+                android:layout_below="@+id/profile_layout"
+                android:orientation="vertical">
 
 
+                <TextView
+                    android:id="@+id/dob"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#fff"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:padding="20dp" />
+
+                <TextView
+                    android:id="@+id/nationality"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="#fff"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:padding="20dp" />
+
+                <TextView
+                    android:id="@+id/bloodgroup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#fff"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:padding="20dp" />
+
+
+                <Button
+                    android:id="@+id/btnEdit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/btn_logut_bg"
+                    android:text="EDIT PROFILE"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btnLogout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/btn_logut_bg"
+                    android:text="LOGOUT"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:weightSum="1">
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/blood_group"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/bloodgroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:textColor="@color/lbl_name"
-                android:textSize="24sp" />
-
-
-        </LinearLayout>
-
-
-
-        <Button
-            android:id="@+id/btnLogout"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dip"
-            android:background="@color/btn_logut_bg"
-            android:text="@string/btn_logout"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textSize="15sp" />
-
-    </LinearLayout>
+    </ScrollView>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:id="@+id/linearLayout2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true">
+        android:layout_height="match_parent">
 
         <android.support.design.widget.BottomNavigationView
             android:id="@+id/navigation"
-            android:title="@string/profile"
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="match_parent"
+
             android:layout_gravity="bottom"
-            android:layout_marginTop="80dip"
+            android:layout_marginTop="10dip"
             android:background="?android:attr/windowBackground"
-            android:textAlignment="center"
             app:menu="@menu/navigation" />
-
     </LinearLayout>
 
-
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar_bottom"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize">
-
-    <LinearLayout
-        android:id="@+id/toolbarmenucontainer"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="50dip"
-        android:orientation="horizontal"
-        android:weightSum="3">
-        <ImageButton
-            android:id="@+id/imgbtn1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-android:layout_marginRight="20dip"
-            android:clickable="true"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/ic_dashboard_black_24dp" />
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="20dip"
-            android:clickable="true"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/ic_dashboard_black_24dp" />
-
-
-
-        <ImageButton
-            android:id="@+id/imgbtn4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="20dip"
-            android:clickable="true"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/ic_dashboard_black_24dp" />
-
-
-
-
-    </LinearLayout>
-    </android.support.v7.widget.Toolbar>
-
-</RelativeLayout>
-
-
-
-
-
+</LinearLayout>

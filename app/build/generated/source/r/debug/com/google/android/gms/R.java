@@ -52,27 +52,27 @@ public final class R {
         public static final int common_google_signin_btn_tint = 0x7f0d007b;
     }
     public static final class drawable {
-        public static final int common_full_open_on_phone = 0x7f020055;
-        public static final int common_google_signin_btn_icon_dark = 0x7f020056;
-        public static final int common_google_signin_btn_icon_dark_focused = 0x7f020057;
-        public static final int common_google_signin_btn_icon_dark_normal = 0x7f020058;
-        public static final int common_google_signin_btn_icon_dark_normal_background = 0x7f020059;
-        public static final int common_google_signin_btn_icon_disabled = 0x7f02005a;
-        public static final int common_google_signin_btn_icon_light = 0x7f02005b;
-        public static final int common_google_signin_btn_icon_light_focused = 0x7f02005c;
-        public static final int common_google_signin_btn_icon_light_normal = 0x7f02005d;
-        public static final int common_google_signin_btn_icon_light_normal_background = 0x7f02005e;
-        public static final int common_google_signin_btn_text_dark = 0x7f02005f;
-        public static final int common_google_signin_btn_text_dark_focused = 0x7f020060;
-        public static final int common_google_signin_btn_text_dark_normal = 0x7f020061;
-        public static final int common_google_signin_btn_text_dark_normal_background = 0x7f020062;
-        public static final int common_google_signin_btn_text_disabled = 0x7f020063;
-        public static final int common_google_signin_btn_text_light = 0x7f020064;
-        public static final int common_google_signin_btn_text_light_focused = 0x7f020065;
-        public static final int common_google_signin_btn_text_light_normal = 0x7f020066;
-        public static final int common_google_signin_btn_text_light_normal_background = 0x7f020067;
-        public static final int googleg_disabled_color_18 = 0x7f020072;
-        public static final int googleg_standard_color_18 = 0x7f020073;
+        public static final int common_full_open_on_phone = 0x7f020056;
+        public static final int common_google_signin_btn_icon_dark = 0x7f020057;
+        public static final int common_google_signin_btn_icon_dark_focused = 0x7f020058;
+        public static final int common_google_signin_btn_icon_dark_normal = 0x7f020059;
+        public static final int common_google_signin_btn_icon_dark_normal_background = 0x7f02005a;
+        public static final int common_google_signin_btn_icon_disabled = 0x7f02005b;
+        public static final int common_google_signin_btn_icon_light = 0x7f02005c;
+        public static final int common_google_signin_btn_icon_light_focused = 0x7f02005d;
+        public static final int common_google_signin_btn_icon_light_normal = 0x7f02005e;
+        public static final int common_google_signin_btn_icon_light_normal_background = 0x7f02005f;
+        public static final int common_google_signin_btn_text_dark = 0x7f020060;
+        public static final int common_google_signin_btn_text_dark_focused = 0x7f020061;
+        public static final int common_google_signin_btn_text_dark_normal = 0x7f020062;
+        public static final int common_google_signin_btn_text_dark_normal_background = 0x7f020063;
+        public static final int common_google_signin_btn_text_disabled = 0x7f020064;
+        public static final int common_google_signin_btn_text_light = 0x7f020065;
+        public static final int common_google_signin_btn_text_light_focused = 0x7f020066;
+        public static final int common_google_signin_btn_text_light_normal = 0x7f020067;
+        public static final int common_google_signin_btn_text_light_normal_background = 0x7f020068;
+        public static final int googleg_disabled_color_18 = 0x7f020073;
+        public static final int googleg_standard_color_18 = 0x7f020074;
     }
     public static final class id {
         public static final int adjust_height = 0x7f0f0041;
@@ -90,8 +90,8 @@ public final class R {
         public static final int satellite = 0x7f0f0044;
         public static final int standard = 0x7f0f004c;
         public static final int terrain = 0x7f0f0045;
-        public static final int text = 0x7f0f012f;
-        public static final int text2 = 0x7f0f012d;
+        public static final int text = 0x7f0f0129;
+        public static final int text2 = 0x7f0f0127;
         public static final int wide = 0x7f0f004d;
         public static final int wrap_content = 0x7f0f002c;
     }
