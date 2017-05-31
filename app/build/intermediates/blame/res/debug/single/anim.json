@@ -8,6 +8,14 @@
         "source": "C:\\Users\\priya\\.android\\build-cache\\5d9a6a858babdd40eb6670f7c42de1520670454c\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pull_in_from_left.xml",
+        "source": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\src\\main\\res\\anim\\pull_in_from_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hold.xml",
+        "source": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\src\\main\\res\\anim\\hold.xml"
+    },
+    {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\priya\\.android\\build-cache\\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\\output\\res\\anim\\abc_popup_exit.xml"
     },
@@ -54,6 +62,10 @@
     {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\priya\\.android\\build-cache\\a9d56bb98f35b3c2dfa8cf38954b5dae742d844e\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pull_out_to_left.xml",
+        "source": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\src\\main\\res\\anim\\pull_out_to_left.xml"
     },
     {
         "merged": "C:\\Users\\priya\\Documents\\MANIPAL\\BACKUPv4\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",

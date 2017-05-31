@@ -9,7 +9,7 @@
     <ScrollView
         android:id="@+id/scroll"
         android:layout_width="match_parent"
-        android:layout_height="464dp"
+        android:layout_height="471dp"
         android:fillViewport="true">
 
         <LinearLayout
@@ -115,17 +115,6 @@
                     android:elevation="4dp"
                     android:padding="20dp" />
 
-
-                <Button
-                    android:id="@+id/btnEdit"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:background="@color/btn_logut_bg"
-                    android:text="EDIT PROFILE"
-                    android:textAllCaps="false"
-                    android:textColor="#FFFFFF"
-                    android:textSize="15sp" />
 
                 <Button
                     android:id="@+id/btnLogout"

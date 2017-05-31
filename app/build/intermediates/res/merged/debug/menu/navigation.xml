@@ -1,30 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/home"
-        android:title="@string/title_home" />
+        android:title="@string/title_home"
+        app:showAsAction="withText"
+        />
 
     <item
         android:id="@+id/messg"
         android:icon="@drawable/appointment"
-        android:title="@string/appointments" />
+        android:title="@string/appointments"
+        app:showAsAction="withText" />
 
     <item
     android:id="@+id/apointment"
     android:icon="@drawable/message"
-    android:title="@string/messages" />
+    android:title="@string/messages"
+        app:showAsAction="withText"/>
 
     <item
         android:id="@+id/profilenav"
         android:icon="@drawable/profile"
-        android:title="@string/profile" />
+        android:title="@string/profile"
+        app:showAsAction="withText"/>
 
     <item
         android:id="@+id/logoutnav"
         android:icon="@drawable/logout"
-        android:title="@string/logout" />
+        android:title="@string/logout"
+        app:showAsAction="withText"/>
 
 
 
